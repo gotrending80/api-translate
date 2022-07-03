@@ -5,8 +5,8 @@ exports.index = (req, res) => {
 	return res.json({
 		status: true,
 		data: { 
-			endpoint: 'https://apikidy-translate1.herokuapp.com/?engine={engine}&text={text}&to={to}',
-			example: 'https://apikidy-translate1.herokuapp.com/translate?engine=google&text=Welcome&to=id'
+			endpoint: 'https://apikidy-translate2.herokuapp.com/?engine={engine}&text={text}&to={to}',
+			example: 'https://apikidy-translate2.herokuapp.com/translate?engine=google&text=Welcome&to=id'
 		}
 	})
 }
